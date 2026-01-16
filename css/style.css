@@ -1,0 +1,516 @@
+/* Start Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Geologica Variable",  sans-serif;
+    color: #484848;
+}
+.btn {
+    width: 100%;
+    background-color: #E60012;
+    border: 1px solid #E60012;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #AC000D;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+}
+.float-left { 
+    float: left; 
+}
+.float-right { 
+    float: right; 
+}
+.clear {
+    clear: both;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E60012;
+}
+a:hover {
+    color: #AC000D;
+}
+.section-title {
+    margin-bottom: 20px;
+}
+/* End Global Styles */
+
+/* Start Navbar */
+.navbar {
+    position: relative;
+    background-color: #fff;
+    height: 70px;
+    font-weight: bold;
+}
+.navbar .links a {
+    color: #484848;
+}
+.navbar .links a:hover {
+    color: #E60012;
+}
+.navbar .float-right {
+    position: absolute;
+    right: 20px; 
+    top: 15px;
+}
+.navbar img {
+    height: 70px; 
+}
+.navbar img ,
+.navbar .float-left ,
+.navbar .links ,
+.navbar .search ,
+.navbar .icons ,
+.navbar .user-actions {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar .links .link {
+    display: inline-block;
+    margin-left: 15px;
+}
+.navbar .search ,
+.navbar .icons span {
+    background-color: #F8F8F8;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.navbar .search input {
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+    height: 20px;
+}
+.navbar .search input:focus {
+    outline: none;
+}
+.navbar .search input::placeholder {
+    color: #484848;
+    font-weight: 600;
+}
+.navbar .user-actions {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #E60012;
+    border: 2px solid #E60012;
+}   
+.navbar #flag {
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* End Navbar */
+
+/* Start Offer */
+.offer {
+    height: 60px;
+    background-color: #F8F8F8;
+    padding: 15px;
+    text-align: center;
+}
+.offer .offer-item ,
+.offer .offer-item p {
+    display: inline-block;
+}
+.offer a {
+    color: #484848;
+}
+.offer a:hover {
+    color: #E60012;
+}
+/* End Offer */
+
+/* Start Hero Section */
+.hero {
+    position: relative;
+    height: 100%;
+    background-color: #DEC8A2;
+}
+.hero .hero-container {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    border: 1px solid #EFEFEF;
+}
+.hero-container .hero-links {
+    margin-bottom: 20px;
+}
+.hero-container .hero-links a {
+    color: #484848;
+}
+.hero-content .float-left {
+    width: 60%;
+}
+.hero-content .float-right  {
+    width: 40%;
+}
+/* left */
+.hero-content .float-left > img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.hero-content .slider img {
+    width: 100px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.content-rating {
+    margin: 10px 0;
+}
+.content-rating img {
+    vertical-align: middle;
+    margin: 10px 5px;
+    display: inline-block;
+}
+.content-rating .rating-details {
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+}
+.content-rating .rating-details .rating-description {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.hero-content .info {
+    background-color: #F8F8F8;
+    padding: 20px;
+    border-radius: 20px;
+}
+.hero-content .info .desc {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.hero-content .info .desc p {
+    font-size: 13px;
+}
+/* right */
+.hero-content .float-right h2 ,
+.hero-content .float-right > div ,
+.hero-content button ,
+.hero-content .purchase-note {
+    margin: 20px 40px;
+}
+.hero-content .product-meta p {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.hero-content .product-meta span {
+    background-color: #F8F8F8;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.hero-content .product-purchase p {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.hero-content .product-purchase span {
+    float: right;
+}
+.hero-content .btn {
+    width: 82%;
+}
+.hero-content .purchase-note {
+    font-size: 12px;
+    margin: 0 40px;
+}
+.hero-content .product-extra a {
+    text-decoration: none;
+}
+/* End Hero Section */
+
+/* Start Game Description Section */
+.game-description {
+    padding-top: 50px;
+    overflow: hidden;
+}
+.game-description .description-content {
+    width: 50%;
+}
+.description-content .description-text {
+    margin: 15px 0;
+}
+.description-content .publisher-note {
+    margin: 15px 0;
+    font-size: 12px;
+}
+.description-content .btn {
+    width: 60%;
+}
+.game-description .description-image {
+    width: 50%;
+    text-align: right;
+}
+.game-description  .description-image img {
+    width: 90%;
+    border-radius: 15px;
+}
+/* End Game Description Section */
+
+/* Start Related Tags */
+.related-tags .tags-list {
+    margin: 20px 0;
+}
+.tags-list .tag-item {
+    display: inline-block;
+    background-color: #EFEFEF;
+    color: #484848;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.tags-list .tag-item:hover {
+    color: #E60012;
+    padding: 10px 22px;
+}
+/* End Related Tags */
+
+/* Start About Section */
+.about-item table {
+    border-collapse: collapse;
+}
+.about-item table th,
+.about-item table td {
+    padding: 35px 10px;
+    text-align: left;
+}
+.about-item table tr {
+    border-bottom: 1px solid #ccc;
+}
+.about-item table tr:first-child {
+    border-top: 1px solid #ccc;
+}
+.about-item table .mode-item {
+    display: inline-block;
+    text-align: center;  
+    margin: 10px;
+}
+.about-item table .mode-item img {
+    margin: 0 auto 5px; 
+}
+.about-item table .mode-note ,
+.about-item table .table-note {
+    font-size: 12px;
+    margin: 10px 5px;
+}
+.about-item .table-links a {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+/* End About Section */
+
+/* Start Players Info Section */
+.players-info p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+/* End Players Info Section */
+
+/* Start Downloadable Content & More Like This Section */
+.download-content .section-title {
+    display: inline-block;
+    padding-right: 15px;
+    border-right: 2px solid #ccc;
+    margin-right: 10px;
+}
+.download-list {
+    padding: 10px;
+    background-color: #DEC8A2;
+}
+.download-list .download-card ,
+.more-this .more-card {
+    display: inline-block;
+    width: 270px;
+    margin: 0 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    vertical-align: top; 
+}
+.more-this .more-card {
+    border: 1px solid #ccc;
+}
+.download-card img ,
+.more-card img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.download-card-info ,
+.more-card-info {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.download-card-info h4 a ,
+.more-card-info h4 a {
+    color: #484848;
+    text-decoration: none;
+}
+.download-card-info h4 a:hover,
+.more-card-info h4 a:hover {
+    color: #E60012;
+}
+.download-card-info .release-date,
+.more-card-info .release-date {
+    font-size: 12px;
+    display: block;
+    margin: 10px 0;
+}
+.download-card-info .card-details {
+    background-color: #9531B9;
+    padding: 3px 8px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+.download-card-info .dlc-badge {
+    display: block;
+    margin: 15px 0;
+}
+.download-card-info .card-desc,
+.more-card-info .card-desc {
+    margin: 5px 0;
+}
+.download-card-info .card-cat,
+.more-card-info .card-cat {
+    font-size: 12px;
+}
+.more-this .warning-message {
+    margin: 50px 0;
+}
+.more-this .warning-message p {
+    margin: 20px 0;
+    font-size: 12px;
+}
+/* End Downloadable Content Section & More Like This Section */
+
+/* Start Footer Links */
+.site-footer .footer-logo {
+    background-color: #E60012;
+    height: 140px;
+    position: relative;
+}
+.footer-logo img {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    margin: auto; 
+}
+.site-footer .footer-links {
+    padding: 50px;
+}
+.site-footer .footer-links .footer-column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    position: relative;
+}
+.site-footer .footer-links .footer-column::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 1px;
+    height: 300px;
+    background-color: #ccc;
+}
+.site-footer .footer-links .footer-column:nth-child(6):after {
+    display: none;
+}
+.footer-links .footer-title a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 25px;
+    color: #484848;
+}
+.footer-links .footer-title a:hover {
+    text-decoration: underline #AC000D;
+}
+.footer-list {
+    margin-bottom: 35px;
+}
+.footer-list li {
+    margin-bottom: 10px;
+}
+.footer-list li a:hover {
+    text-decoration: underline;
+}
+.site-footer .footer-icons {
+    padding: 40px 0;
+}
+.footer-icons .footer-social img {
+    margin-left: 20px;
+}
+/* End Site Footer */
+
+/* Start Footer */
+.footer-bottom {
+    background-color: #242424;
+    padding: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+.footer-bottom a {
+    color: #fff;
+}
+.footer-bottom .left .footer-copyright {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 50px;
+}
+.footer-bottom .footer-bottom-links {
+    display: inline-block;
+}
+.footer-bottom .footer-bottom-links li {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.footer-bottom .footer-language {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-language img {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+/* End Footer */
